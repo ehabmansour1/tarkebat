@@ -397,6 +397,8 @@ body {
 .quest {
   background-color: #03a8f4d4;
   padding: 80px 0;
+  background-image: url(../images/back.png);
+  background-attachment: fixed;
 }
 .quest .container {
   margin-top: 50px;
@@ -422,6 +424,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  backdrop-filter: blur(3px);
 }
 .quest .item .r,
 .quest .item .q {
